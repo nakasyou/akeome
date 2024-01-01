@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.y2024 {
+    animation: anim 2s linear infinite;
+}
+
+@keyframes anim {
+    0% { color: #f00; }
+    50% { color: #000; }
+    100% { color: #f00; }
+}
